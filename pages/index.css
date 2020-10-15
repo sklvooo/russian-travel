@@ -1,0 +1,49 @@
+@import url('../vendors/normalize.css');
+
+@import url('../fonts/fonts.css');
+
+@import url('../blocks/page/page.css');
+@import url('../blocks/header/header.css');
+@import url('../blocks/header/__list.css');
+@import url('../blocks/header/__item.css');
+@import url('../blocks/header/__link.css');
+
+@import url('../blocks/lead/lead.css');
+@import url('../blocks/lead/__header.css');
+@import url('../blocks/lead/__subtitle.css');
+@import url('../blocks/lead/__photo-title.css');
+@import url('../blocks/lead/__text-title.css');
+@import url('../blocks/lead/__text.css');
+@import url('../blocks/lead/__list.css');
+@import url('../blocks/lead/__list-text.css');
+@import url('../blocks/lead/__image.css');
+
+@import url('../blocks/photo/photo.css');
+@import url('../blocks/photo/__list.css');
+@import url('../blocks/photo/__image.css');
+
+@import url('../blocks/place/place.css');
+@import url('../blocks/place/__list.css');
+@import url('../blocks/place/__item.css');
+@import url('../blocks/place/__image.css');
+@import url('../blocks/place/__header.css');
+@import url('../blocks/place/__text-wrapper.css');
+@import url('../blocks/place/__text.css');
+@import url('../blocks/place/__link-wrapper.css');
+@import url('../blocks/place/__link-text.css');
+@import url('../blocks/place/__link.css');
+
+@import url('../blocks/trip/trip.css');
+@import url('../blocks/trip/__header.css');
+@import url('../blocks/trip/__link.css');
+@import url('../blocks/trip/__text.css');
+
+@import url('../blocks/footer/footer.css');
+@import url('../blocks/footer/__list.css');
+@import url('../blocks/footer/__author.css');
+@import url('../blocks/footer/__link.css');
+@import url('../blocks/footer/__item.css');
+
+* {
+    border: 1px solid red;
+}

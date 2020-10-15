@@ -1,0 +1,29 @@
+.trip {
+    width: 1184px;
+    min-height: 740px;
+    display: flex;
+    background-image: url("../../images/cover-trains.jpg");
+    background-size: cover;
+    margin: 0 auto;
+}
+
+@media (max-width: 1280px) {
+    .trip {
+        width: 1024px;
+        min-height: 640px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .trip {
+        width: 768px;
+        min-height: 480px;
+    }
+}
+
+@media (max-width: 768px) {
+    .trip {
+        width: 320px;
+        min-height: 200px;
+    }
+}
