@@ -6,22 +6,6 @@
     line-height: 16px;
 }
 
-@media (max-width: 1280px) {
-    .footer__author {
-        margin: 90px 0 24px;
-        font-size: 14px;
-        line-height: 16px;
-    }
-}
-
-@media (max-width: 1024px) {
-    .footer__author {
-        margin: 90px 0 24px;
-        font-size: 14px;
-        line-height: 16px;
-    }
-}
-
 @media (max-width: 768px) {
     .footer__author {
         margin: 0 0 24px;
