@@ -43,7 +43,3 @@
 @import url('../blocks/footer/__author.css');
 @import url('../blocks/footer/__link.css');
 @import url('../blocks/footer/__item.css');
-
-* {
-    border: 1px solid red;
-}
