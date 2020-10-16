@@ -1,25 +1,15 @@
 .footer {
-    width: 1184px;
+    width: 90%;
     display: flex;
     margin: 0 auto;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-@media (max-width: 1280px) {
+
+@media (max-width: 320px) {
     .footer {
-        width: 928px;
+        width: 288px;
     }
 }
 
-@media (max-width: 1024px) {
-    .footer {
-        width: 720px;
-    }
-}
-
-@media (max-width: 768px) {
-    .footer {
-        width: 186px;
-    }
-}

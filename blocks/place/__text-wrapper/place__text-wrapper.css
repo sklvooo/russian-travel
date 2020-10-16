@@ -1,0 +1,21 @@
+.place__text-wrapper {
+    width: 484px;
+}
+
+@media (max-width: 1024px) {
+    .place__text-wrapper {
+        width: 456px;
+    }
+}
+
+@media (max-width: 928px) {
+    .place__text-wrapper {
+        width: 352px;
+    }
+}
+
+@media (max-width: 360px) {
+    .place__text-wrapper {
+        width: 288px;
+    }
+}

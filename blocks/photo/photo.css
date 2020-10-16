@@ -4,19 +4,19 @@
     width: 1184px;
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1270px) {
     .photo {
         width: 928px;
     }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1020px) {
     .photo {
         width: 720px;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 760px) {
     .photo {
         width: 288px;
     }

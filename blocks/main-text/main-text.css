@@ -1,0 +1,16 @@
+.main-text {
+    width: 75%;
+    margin: 0 auto;
+}
+
+@media (max-width: 1024px) {
+    .main-text {
+        width: 90%;
+    }
+}
+
+@media (max-width: 320px) {
+    .main-text {
+        width: 288px;
+    }
+}

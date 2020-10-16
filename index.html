@@ -8,10 +8,10 @@
     </head>
     <body class="page">
         <header class="header">
-            <img src="images/header-logo.svg" class="header__logo" alt="Логотип проекта Путешествия по России">
+            <img src="images/header-logo.svg" class="header__image" alt="Логотип проекта Путешествия по России">
             <ul class="header__list">
-                <li class="header__item"><a href="#" class="header__link">Ru</a></li>
-                <li class="header__item"><a href="#" class="header__link">En</a></li>
+                <li class="header__item"><a href="#" class="header__link link">Ru</a></li>
+                <li class="header__item"><a href="#" class="header__link link">En</a></li>
             </ul>
         </header>
         <main class="main">
@@ -20,15 +20,19 @@
                 <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
                 <img src="images/lead-polka.png" class="lead__image" alt="Картинка с картой пути">
                 <p class="lead__photo-title">ваша полка — верхняя</p>
-                <h2 class="lead__text-title">Чего мы там не видели?</h2>
-                <p class="lead__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
-                <ul class="lead__list">
-                    <li><p class="lead__list-text">Часовых поясов 11</p></li>
-                    <li><p class="lead__list-text">Объектов природного наследия ЮНЕСКО 12</p></li>
-                    <li><p class="lead__list-text">Объектов культурного наследия ЮНЕСКО 16</p></li>
-                    <li><p class="lead__list-text">Природных заповедников 105</p></li>
-                    <li><p class="lead__list-text">Аэропортов 241</p></li>
-                </ul>
+            </section>
+            <section class="main-text">
+                <div class="main-text__wrapper">
+                    <h2 class="main-text__header">Чего мы там не видели?</h2>
+                    <p class="main-text__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
+                    <ul class="main-text__list">
+                        <li><p class="main-text__list-text">Часовых поясов 11</p></li>
+                        <li><p class="main-text__list-text">Объектов природного наследия ЮНЕСКО 12</p></li>
+                        <li><p class="main-text__list-text">Объектов культурного наследия ЮНЕСКО 16</p></li>
+                        <li><p class="main-text__list-text">Природных заповедников 105</p></li>
+                        <li><p class="main-text__list-text">Аэропортов 241</p></li>
+                    </ul>
+                </div>
             </section>
             <section class="photo">
                 <ul class="photo__list">
@@ -52,7 +56,7 @@
                         <h2 class="place__header">Куршская коса</h2>
                         <div class="place__link-wrapper">
                             <p class="place__link-text">url</p>
-                            <a href="http://park-kosa.ru/" class="place__link">park-kosa.ru</a>
+                            <a href="http://park-kosa.ru/" class="place__link link">park-kosa.ru</a>
                         </div>
                         <img src="images/place-kosa.jpg" class="place__image" alt="Фото куршской косы">
                         <div class="place__text-wrapper">
@@ -64,7 +68,7 @@
                         <h2 class="place__header">Кольский</h2>
                         <div class="place__link-wrapper">
                             <p class="place__link-text">url</p>
-                            <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="place__link">National Geographic</a>
+                            <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="place__link link">National Geographic</a>
                         </div>
                         <img src="images/place-kolsky.jpg" class="place__image" alt="Фото кольского полуострова">
                         <div class="place__text-wrapper">
@@ -76,7 +80,7 @@
                         <h2 class="place__header">Алтай</h2>
                         <div class="place__link-wrapper">
                             <p class="place__link-text">url</p>
-                            <a href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" class="place__link">Facebook</a>
+                            <a href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" class="place__link link">Facebook</a>
                         </div>
                         <img src="images/place-altai.jpg" class="place__image" alt="Фото алтая">
                         <div class="place__text-wrapper">
@@ -88,7 +92,7 @@
                         <h2 class="place__header">Зимний Байкал</h2>
                         <div class="place__link-wrapper">
                             <p class="place__link-text">url</p>
-                            <a href="https://vk.com/baikalmile" class="place__link">https://vk.com/baikalmile</a>
+                            <a href="https://vk.com/baikalmile" class="place__link link">https://vk.com/baikalmile</a>
                         </div>
                         <img src="images/place-winter-baikal.jpg" class="place__image" alt="Фото байкала">
                         <div class="place__text-wrapper">
@@ -100,7 +104,7 @@
                         <h2 class="place__header">Карелия</h2>
                         <div class="place__link-wrapper">
                             <p class="place__link-text">url</p>
-                            <a href="http://vodlozero.ru/" class="place__link">http://vodlozero.ru/</a>
+                            <a href="http://vodlozero.ru/" class="place__link link">http://vodlozero.ru/</a>
                         </div>
                         <img src="images/place-karelia.jpg" class="place__image" alt="Фото карелии">
                         <div class="place__text-wrapper">
@@ -118,11 +122,11 @@
         </main>
         <footer class="footer">
             <ul class="footer__list">
-                <li class="footer__item"><a href="https://yandex.ru/maps" class="footer__link">Карты</a></li>
-                <li class="footer__item"><a href="https://yandex.ru/pogoda" class="footer__link">Погода</a></li>
-                <li class="footer__item"><a href="https://rasp.yandex.ru" class="footer__link">Расписание</a></li>
-                <li class="footer__item"><a href="https://calendar.yandex.ru" class="footer__link">Календарь</a></li>
-                <li class="footer__item"><a href="https://travel.yandex.ru" class="footer__link">Путешествия</a></li>
+                <li class="footer__item"><a href="https://yandex.ru/maps" class="footer__link link">Карты</a></li>
+                <li class="footer__item"><a href="https://yandex.ru/pogoda" class="footer__link link">Погода</a></li>
+                <li class="footer__item"><a href="https://rasp.yandex.ru" class="footer__link link">Расписание</a></li>
+                <li class="footer__item"><a href="https://calendar.yandex.ru" class="footer__link link">Календарь</a></li>
+                <li class="footer__item"><a href="https://travel.yandex.ru" class="footer__link link">Путешествия</a></li>
             </ul>
             <p class="footer__author">© 2020. Сергей Соколов</p>
         </footer>

@@ -1,9 +1,0 @@
-.place__link-wrapper {
-    width: 484px;
-}
-
-@media (max-width: 768px) {
-    .place__link-wrapper {
-        display: none;
-    }
-}

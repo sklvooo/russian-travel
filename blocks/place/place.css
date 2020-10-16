@@ -1,22 +1,28 @@
 .place {
     margin: 0 auto;
     width: 984px;
-    padding: 0 0 0;
+    padding: 0;
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1024px) {
     .place {
         width: 928px;
     }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 928px) {
     .place {
         width: 720px;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 760px) {
+    .place {
+        width: 360px;
+    }
+}
+
+@media (max-width: 360px) {
     .place {
         width: 320px;
     }

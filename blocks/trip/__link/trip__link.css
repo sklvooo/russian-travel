@@ -1,0 +1,17 @@
+.trip__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100%;
+    flex-direction: column;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: rgba(42, 44, 47, 0.25);
+}
+
+.trip__link:hover {
+    background-color: rgba(42, 44, 47, 0.5);
+}
+
+

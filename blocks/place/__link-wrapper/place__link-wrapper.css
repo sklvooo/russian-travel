@@ -1,0 +1,23 @@
+.place__link-wrapper {
+    width: 484px;
+    align-self: flex-end;
+    margin: 0 0 40px;
+}
+
+@media (max-width: 1024px) {
+    .place__link-wrapper {
+        width: 456px;
+    }
+}
+
+@media (max-width: 928px) {
+    .place__link-wrapper {
+        width: 352px;
+    }
+}
+
+@media (max-width: 760px) {
+    .place__link-wrapper {
+        display: none;
+    }
+}
