@@ -3,6 +3,31 @@
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    max-width: 1184px;
+}
+
+@media (max-width: 1024px) {
+    .header {
+        width: 928px;
+    }
+}
+
+@media (max-width: 1020px) {
+    .header {
+        width: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        width: 720px;
+    }
+}
+
+@media (max-width: 760px) {
+    .header {
+        width: 90%;
+    }
 }
 
 @media (max-width: 310px) {

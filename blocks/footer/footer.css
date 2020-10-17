@@ -4,12 +4,35 @@
     margin: 0 auto;
     justify-content: space-between;
     flex-wrap: wrap;
+    max-width: 1184px;
 }
 
+@media (max-width: 1024px) {
+    .footer {
+        width: 928px;
+    }
+}
+
+@media (max-width: 1020px) {
+    .footer {
+        width: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer {
+        width: 720px;
+    }
+}
+
+@media (max-width: 760px) {
+    .footer {
+        width: 90%;
+    }
+}
 
 @media (max-width: 320px) {
     .footer {
         width: 288px;
     }
 }
-

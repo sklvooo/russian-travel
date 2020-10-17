@@ -1,9 +1,28 @@
 .main-text {
     width: 75%;
     margin: 0 auto;
+    max-width: 984px;
 }
 
 @media (max-width: 1024px) {
+    .main-text {
+        width: 928px;
+    }
+}
+
+@media (max-width: 1020px) {
+    .main-text {
+        width: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+    .main-text {
+        width: 720px;
+    }
+}
+
+@media (max-width: 760px) {
     .main-text {
         width: 90%;
     }
