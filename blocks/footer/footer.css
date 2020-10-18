@@ -1,10 +1,16 @@
 .footer {
-    width: 90%;
+    width: 1184px;
     display: flex;
     margin: 0 auto;
     justify-content: space-between;
     flex-wrap: wrap;
     max-width: 1184px;
+}
+
+@media (max-width: 1270px) {
+    .footer {
+        width: 90%;
+    }
 }
 
 @media (max-width: 1024px) {

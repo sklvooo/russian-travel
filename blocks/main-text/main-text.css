@@ -1,7 +1,13 @@
 .main-text {
-    width: 75%;
+    width: 984px;
     margin: 0 auto;
     max-width: 984px;
+}
+
+@media (max-width: 1270px) {
+    .main-text {
+        width: 75%;
+    }
 }
 
 @media (max-width: 1024px) {

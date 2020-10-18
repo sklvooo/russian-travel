@@ -1,9 +1,15 @@
 .header {
-    width: 90%;
+    width: 1184px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     max-width: 1184px;
+}
+
+@media (max-width: 1270px) {
+    .header {
+        width: 90%;
+    }
 }
 
 @media (max-width: 1024px) {
